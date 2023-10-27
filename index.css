@@ -1,17 +1,36 @@
-.header {
-    height: 40px;
-    padding: 20px 20px 0;
-    background: #e1e1e1;
+/* Style de base pour la barre de navigation */
+nav {
+    background-color: #333; /* Couleur de fond de la barre de navigation */
+    text-align: center; /* Centre les éléments de la barre de navigation */
   }
-  .main-content {
-    height: 60vh;
-    padding: 20px;
+  
+  /* Style pour la liste non ordonnée à l'intérieur de la barre de navigation */
+  nav ul {
+    list-style: none; /* Supprime les puces de liste */
+    padding: 0;
+    margin: 0;
   }
-  footer {
-    padding: 10px 20px;
-    background: #666;
-    color: white;
+  
+  /* Style pour chaque élément de liste (les liens) dans la barre de navigation */
+  nav li {
+    display: inline; /* Affiche les éléments de liste en ligne (côte à côte) */
+    margin: 0 20px; /* Marge à droite et à gauche entre les éléments de liste */
   }
-  a {
-    color: #00aaff;
+  
+  /* Style des liens dans la barre de navigation */
+  nav a {
+    color: white; /* Couleur du texte des liens */
+    text-decoration: none; /* Supprime les soulignements par défaut des liens */
+    font-weight: bold; /* Texte en gras */
+    font-size: 16px; /* Taille de la police */
+    padding: 10px 15px; /* Espace autour du texte du lien */
+    border: 1px solid transparent; /* Supprime la bordure par défaut */
+    border-radius: 5px; /* Coins arrondis */
   }
+  
+  /* Style pour les liens au survol de la souris */
+  nav a:hover {
+    background-color: #555; /* Couleur de fond au survol */
+    color: #fff; /* Couleur du texte au survol */
+  }
+  
